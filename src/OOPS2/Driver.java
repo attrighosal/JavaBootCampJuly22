@@ -6,4 +6,8 @@ public class Driver {
     car.accelerate();
   }
 
+  public void drive(Bus bus) {
+    bus.accelerate();
+  }
+
 }

@@ -9,9 +9,13 @@ public class Source {
     tata.accelerate();
     maruti.accelerate();
 
-//    Driver driver = new Driver();
-//
-//    driver.drive(tata);
-//    driver.drive(maruti);
+    Bus volvo = new Volvo();
+
+
+    Driver driver = new Driver();
+
+    driver.drive(tata);
+    driver.drive(maruti);
+    driver.drive(volvo);
   }
 }
