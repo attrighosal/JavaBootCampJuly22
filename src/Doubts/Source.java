@@ -9,5 +9,11 @@ public class Source {
 
     SUV suv = new SUV(4,4,4, "Green", 8);
 
+
+    B b = new B();
+    A a = new A(b);
+
+    Test t = new Test();
+    System.out.println(t.x);
   }
 }
