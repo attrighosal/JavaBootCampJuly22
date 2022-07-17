@@ -18,3 +18,8 @@ public class OuterClass {
     }
   }
 }
+
+// StaticInnerClass -> static variable of OuterClass
+// StaticInnerClass == OuterClass
+
+//
